@@ -1,10 +1,10 @@
+
 class Student:
     id = ""
     name = ""
     age = ""
     gender = ""
     average = ""
-
     def input(self):
         self.id =int(input(" Enter your ID: "))
         self.name=input("Enter your name: ")
@@ -19,6 +19,9 @@ class Student:
         print("Gender: ",self.gender)
         print("Average: ",self.average)
 
+   
 student1 = Student()
 student1.input()
 student1.show()
+# fuc.input()
+# fuc.show()
