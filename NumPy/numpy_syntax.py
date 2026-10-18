@@ -15,3 +15,7 @@ import numpy as np
 price = np.array([100,200,300,400])
 double = price*2
 print(double)
+
+
+
+
